@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bgnav {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+/* start Top NavPar */
+
+.NavPar {
+    display: flex;
+}
+
+.secNav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.secNav .navv {
+    margin: 50px 0px 0px;
+    margin-left: 50px;
+    font-size: larger;
+}
+
+.secNav .navv1 {
+    margin: 50px 0px 0px;
+    margin-left: 30px;
+    font-size: larger;
+}
+
+hr {
+    margin-left: 30px;
+    background-color: rgb(231, 94, 231);
+    border-radius: 5px;
+    border-color: rgb(231, 94, 231);
+}
+
+.secNav .img {
+    width: 100px;
+    height: 75px;
+    margin: 30px 0px 0px 100px;
+}
+
+.navv:hover {
+    color: rgb(231, 94, 231);
+}
+
+.navv1:hover {
+    color: rgb(231, 94, 231);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.Nav {
+    display: flex;
+}
+
+.login {
+    display: flex;
+}
+
+.login img {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 650px;
+    width: auto;
+    height: 30px;
+}
+
+.login:hover {
+    transform: translate(3px, 3px);
+}
+
+.login p {
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 675px;
+    font-size: large;
+    color: rgb(179, 14, 179);
+}
+
+.login p:hover {
+    color: rgb(231, 94, 231);
+}
+
+
+/* End Top NavPar */
+
+
+/* start section header */
+
+.secAll {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.person {
+    height: 300px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 130px;
+}
+
+.person:hover {
+    transform: translate(0px, 5px);
+}
+
+.backg {
+    width: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.cloud {
+    position: absolute;
+    height: 140px;
+    margin-top: 280px;
+    z-index: 1;
+    margin-left: 100px;
+}
+
+.baghead {
+    font-size: 250%;
+}
+
+.prag {
+    color: gray;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.divv {
+    margin-top: 150px;
+    margin-left: -500px;
+    margin-right: 200px;
+}
+
+.waves {
+    position: absolute;
+    width: 100%;
+    margin-top: 420px;
+    margin-left: -230px;
+    height: 250px;
+}
+
+.div1_sec2 .bg2 {
+    margin: 100px 0px 0px 250px;
+    position: relative;
+}
+
+.div2_sec2 {
+    margin-top: -550px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img1_sec2 {
+    position: absolute;
+}
+
+.div2_sec2 h3 {
+    color: rgb(66, 63, 63);
+    margin: 10px 0px;
+    font-size: large;
+    margin-right: 50px;
+}
+
+.discrip {
+    margin-top: 200px;
+    margin-right: 1120px;
+}
+
+.div2_sec2 p {
+    color: gray;
+}
+
+
+/* div3 sec2 */
+
+.div3_sec2 {
+    margin-top: -150px;
+    margin-left: 650px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div3_sec2 h3 {
+    color: rgb(66, 63, 63);
+    margin: 10px 0px;
+    font-size: large;
+    /* margin-right: 50px; */
+}
+
+.discrip2 {
+    margin-right: 550px;
+    margin-top: 190px;
+}
+
+.div3_sec2 .p2 {
+    color: gray;
+}
+
+
+/* div4 sec2 */
+
+.div4_sec2 {
+    margin-top: 120px;
+    margin-left: 1120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div4_sec2 h3 {
+    color: rgb(66, 63, 63);
+    margin: 10px 0px;
+    font-size: large;
+}
+
+.discrip3 {
+    margin-top: 190px;
+}
+
+.div4_sec2 .p2 {
+    color: gray;
+}
+
+.div5_sec2 {
+    margin-top: -350px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.div5_sec2 img {
+    position: relative;
+}
+
+.div5_sec2 p {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 140px;
+    color: white;
+    font-size: 300%;
+}
+
+.div5_sec2 .pp {
+    margin-top: 170px;
+    margin-left: 140px;
+    position: absolute;
+    color: white;
+}
+
+.div6_sec2 img {
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.div6_sec2 img:hover {
+    transform: translate(5px, 5px);
+}
+
+.div7_sec2 img:hover {
+    transform: translate(5px, 5px);
+}
+
+.div8_sec2 img:hover {
+    transform: translate(5px, 5px);
+}
+
+.div7_sec2 {
+    display: flex;
+}
+
+.div7_sec2 img {
+    margin-left: 550px;
+    margin-top: -400px;
+    width: 500px;
+}
+
+.discrip7 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 580px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.discrip7 h3 {
+    color: rgb(40, 40, 40);
+    margin-bottom: 15px;
+}
+
+.discrip7 p {
+    color: gray;
+}
+
+.div8_sec2 {
+    margin-left: 1150px;
+    margin-top: -230px;
+}
+
+
+/* start footer */
+
+.footer {
+    display: flex;
+}
+
+.imgf {
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+}
+
+.leftf {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app {
+    display: flex;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.app a {
+    text-decoration: none;
+}
+
+.app:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-color: black;
+}
+
+.ppp {
+    margin: 5px 10px 5px;
+}
+
+.ppp1 {
+    font-size: 90%;
+    color: gray;
+    margin: 5px 12px 0px;
+}
+
+.appp {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imgg {
+    margin: 10px 10px;
+}
+
+.footerNav {
+    display: flex;
+    margin: 20px 0px 0px;
+    color: white;
+    font-size: larger;
+}
+
+.fitem {
+    margin-left: 30px;
+}
+
+.footerNav p:hover {
+    color: rgb(231, 94, 231);
+}
+
+.rightf img {
+    width: auto;
+    height: 450px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -455px;
+}
+
+.fa-angle-left {
+    color: gray;
+    font-size: x-large;
+    margin-left: 530px;
+    margin-top: 450px;
+}
+
+.fa-angle-right {
+    color: gray;
+    font-size: x-large;
+    margin-left: 515px;
+    margin-top: -130px;
+}
+
+.fa-angle-left:hover {
+    color: black;
+    transform: translate(2px, 2px);
+}
+
+.fa-angle-right:hover {
+    color: black;
+    transform: translate(2px, 2px);
+}
